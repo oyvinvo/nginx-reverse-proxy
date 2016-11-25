@@ -4,7 +4,7 @@ Configuration for a reverse proxy using nginx and docker.
 ## Howto
 
 ### Configure
-Edit nginx.conf and replace the servername with your own.
+Edit nginx.conf and replace the servername and port with your own.
 
 ### Generate a certificate for HTTPS.
 ```
