@@ -2,6 +2,10 @@
 Configuration for a reverse proxy using nginx and docker.
 
 ## Howto
+
+### Configure
+Edit nginx.conf and replace the servername with your own.
+
 ### Generate a certificate for HTTPS.
 ```
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout cert.key -out cert.crt
